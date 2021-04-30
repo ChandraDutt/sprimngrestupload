@@ -109,14 +109,8 @@ public class ApiController {
 		if(employee != null){
 			employeeResume.setEmployeeId(id);
 			employee.setResumeId(employeeResume);
-//			employeeService.createEmployee(employee);
 			employeeResumeResponse= employeeRepository.save(employee);
-//			employeeResume = employeeResumeRepository.save(employeeResume);
-//			employeeResumeResponse = new EmployeeResumeResponse(employeeResume);
-//			employeeResumeResponse.setFileData(employeeResume.getFileData());;
-//			employeeResumeResponse.setEmployeeId(id);
-//			employeeResumeResponse.setFileId(employeeResume.getFileId());
-//			employeeResumeResponse = employeeResumeService.setEmployeeResume(employeeResume);	
+
 		}
 		return new ResponseEntity<>(employeeResumeResponse,HttpStatus.CREATED);
 		
