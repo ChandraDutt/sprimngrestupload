@@ -22,12 +22,12 @@ public class EmployeeResumeResponse {
 	@JsonProperty(value = "FileName")
 	private String fileName;
 	
-	@JsonProperty(value = "FileData")
-	private String fileData;
+//	@JsonProperty(value = "FileData")
+//	private String fileData;
 	
 	public EmployeeResumeResponse(EmployeeResume employeeResume) {
 		this.employeeId = employeeResume.getEmployeeId();
-		this.fileData = employeeResume.getFileData();
+//		this.fileData = employeeResume.getFileData();
 		this.fileId = employeeResume.getFileId();
 		this.fileName = employeeResume.getFileName();
 	}

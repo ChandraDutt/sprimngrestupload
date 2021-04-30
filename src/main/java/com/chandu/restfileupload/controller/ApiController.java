@@ -8,7 +8,9 @@ import javax.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,6 +25,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.chandu.restfileupload.controller.forms.EmployeeRequest;
 import com.chandu.restfileupload.controller.forms.EmployeeResponse;
+import com.chandu.restfileupload.controller.forms.EmployeeResumeRequest;
 import com.chandu.restfileupload.controller.forms.EmployeeResumeResponse;
 import com.chandu.restfileupload.model.Employee;
 import com.chandu.restfileupload.model.EmployeeResume;
@@ -110,11 +113,38 @@ public class ApiController {
 			employeeResume.setEmployeeId(id);
 			employee.setResumeId(employeeResume);
 			employeeResumeResponse= employeeRepository.save(employee);
-
 		}
 		return new ResponseEntity<>(employeeResumeResponse,HttpStatus.CREATED);
 		
 	}
+	
+	@PostMapping(value="/Employees/Resume",consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.MULTIPART_FORM_DATA_VALUE})
+	public ResponseEntity<?> uploadEmployeeResume(@RequestPart("user") EmployeeResumeRequest employeeResumeRequest,
+			@RequestPart("resume") MultipartFile file){
+		logger.info(employeeResumeRequest.toString());
+		logger.info(file.getContentType() + "," + file.getName());
+		EmployeeResume employeeResume = new EmployeeResume(employeeResumeRequest);
+		try {
+		employeeResume =  employeeResumeService.uploadEmployeeResume(employeeResume, file);
+		String body = "Resume upload successfully";
+		return new ResponseEntity<>(body,HttpStatus.CREATED);
+		}
+		catch (Exception e) {
+			String body = "Resume upload failed";
+			return new ResponseEntity<>(body,HttpStatus.UNPROCESSABLE_ENTITY);
+			
+		}
+		
+	}
+	
+	@GetMapping(value="/Employees/{id}/Resume")
+	public ResponseEntity<byte[]> getResumeOfEmployee(@PathVariable Long id){
+		EmployeeResume employeeResume = employeeResumeService.getEmployeeResume(id);
+		return ResponseEntity.ok()
+				.header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + employeeResume.getFileName() + "\"")
+				.body(employeeResume.getFileData());
+	}
+	
 	
 	@PostMapping("/EmployeesId")
 	public ResponseEntity<?> createEmployeeWithId(@Valid @RequestBody EmployeeRequest employeeRequest, @RequestParam Long id) {
