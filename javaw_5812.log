@@ -1,0 +1,69 @@
+---
+VM version: Jan 12 2021 19:38:00 - 81_REL - optU - windows amd64 - 6 - bas2:322789 (mixed mode)
+
+Time:2021-04-2815:40:44
+Pid: 5812
+Hostname: Chandu-PC
+current dir: E:\SAPCloudPlatformDev\CloudFoundry\Springboot\Learning\restfileupload\restfileupload
+---
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [6312]  15:40:44 ***ERROR (:0): StackOverflowError
+   :    [9160]  15:43:38 ***ERROR (:0): StackOverflowError
+   :    [9160]  15:43:38 ***ERROR (:0): StackOverflowError

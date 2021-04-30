@@ -1,0 +1,68 @@
+---
+VM version: Jan 12 2021 19:38:00 - 81_REL - optU - windows amd64 - 6 - bas2:322789 (mixed mode)
+
+Time:2021-04-2919:31:54
+Pid: 8420
+Hostname: Chandu-PC
+current dir: E:\SAPCloudPlatformDev\CloudFoundry\Springboot\Learning\restfileupload\restfileupload
+---
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:54 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
+   :    [10224] 19:31:55 ***ERROR (:0): StackOverflowError
